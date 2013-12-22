@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+.title {
+	background-color: black;
+	color: lime;
+	font-size: xx-large;
+	margin: auto;
+	text-align: center;
+}
+
+button {
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+}
+
+.button a { 
+    margin: auto;
+    vertical-align: middle;
+    line-height: 50px;
+    height: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: brown;
+    size: 30px;
+}
+
+a: visited {
+    color: red;
+}
+
+.topmargin {
+    height: 100px;
+}
+
+#filter {
+	font-family: sans-serif;
+}
+
+#servlet {
+	font-family: monospace;
+}

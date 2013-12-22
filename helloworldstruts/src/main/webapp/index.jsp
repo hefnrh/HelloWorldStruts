@@ -7,6 +7,7 @@
 <title>INDEX</title>
 </head>
 <body>
-
+	<p>request method: <%=request.getAttribute("reqMethod")%><p>
+	<p>from: <%=request.getAttribute("from")%></p>
 </body>
 </html>

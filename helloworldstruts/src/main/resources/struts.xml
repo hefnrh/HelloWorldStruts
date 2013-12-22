@@ -11,8 +11,8 @@
                     </result>
                 </action>
                 <action name="login" class="org.nibonn.helloworldstruts.UserLogin" method="login">
-                    <result name="success" type="redirect">/welcome.jsp</result>
-                    <result name="login">/login.jsp</result>
+                    <result name="success">/welcome.jsp</result>
+                    <result name="login" type="redirect">http://127.0.0.1/login.html</result>
                 </action>
             </package>
         </struts>
